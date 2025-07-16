@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/Components/Navigation";
-import Footer from "@/Components/footer";
+import Footer from "@/Components/Footer";
 import { LayoutHeightsProvider } from '../Context/LayoutHeightsContext';
 
 const geistSans = Geist({
