@@ -10,7 +10,7 @@ export default function Navigation() {
   const [listDisplay, setListDisplay] = useState('');
   const navRef = useRef(null);
   const { bg, fg, darkMode, setNavHeight, setDarkMode } = useLayoutHeights();
-  const popupLayout ="block absolute top-12 right-0 z-3 w-[40%] bg-gray-800 p-5 rounded-lg mr-5";
+  const popupLayout ="block absolute top-12 -right-0 z-3 w-[40%] min-w-[300px] bg-gray-800 p-5 rounded-lg mr-5";
   useEffect(() => {
     if (navRef.current) {
       const height = navRef.current.getBoundingClientRect().height;
