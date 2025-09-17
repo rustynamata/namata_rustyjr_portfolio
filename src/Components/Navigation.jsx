@@ -50,7 +50,7 @@ export default function Navigation() {
           </a>
         </li>
         <li className={listDisplay}>
-          <a href="mailto:rustyjrnamata@gmail.com" className={`${listDisplay} hover:underline hover:underline-offset-4`}>
+          <a href="mailto:namata.rusty1@gmail.com" className={`${listDisplay} hover:underline hover:underline-offset-4`}>
           <svg className="w-[50px] h-[37px] hover:bg-[#50609b97] transition-colors duration-150" viewBox="0 0 134 100" fill="none" xmlns="http://www.w3.org/2000/svg">
            <title>Send me an Email</title>
             <g clipPath="url(#clip0_1:194)">
